@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    height: 200vh;   
+}
+
+section .first{
+    display: flex;
+    height: 70px;
+    width: 100%;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 170px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    
+}
+
+.pages h1, .pages i{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.pages i{
+    font-size: 19px
+}
+
+
+
+.pages{
+    display: flex;
+    gap: 65px;
+    align-items: center;
+}
+
+.nav-image{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+
+.nav-image p{
+    color: black;
+}
+
+.nav-image img{
+    width: 50px;
+    border-radius: 3px;
+
+}
+
+.nav-image img:hover{
+    opacity: 0.8;
+    transition: ease-in 0.2s;
+    width:55px;
+}
+
+.user{
+    display: flex;
+    gap: 20px;
+}
+
+.user i{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.search-bar{
+    opacity: 0;
+    width: 500px;
+    height: 50px;
+    background-color:white;
+    display: flex;
+    transition: 0.2s ease;
+    border-radius: 25px;
+    position: relative;
+    left: 30px;
+}
+
+.search-bar input{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    padding: 0 20px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search:hover .search-bar{
+    opacity: 1;
+}
+
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.about-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: "Roboto Slab", serif;
+    align-items: center;
+    margin: 60px 0;
+}
+
+
+.about-desc{
+    width: 500px;
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+
+.about-mission{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.about-ttl{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+.about-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffaee;
+    height: 650px;
+}
+
+.about-img1 img, .about-img2 img{
+    width: 250px;
+}   
+
+.about-img1 img{
+    position: relative;
+    bottom: 50px;
+    left: 70px;
+}
+
+.about-img2 img{
+    position: relative;
+    top: 139.5px;
+}
+
+.about-top-ttl{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 145px;    
+    font-family: "Great Vibes", cursive;
+    color: #e5b953;
+}
+
+.ttl-1{
+    position: relative;
+    left: 0px;
+}
+
+.ttl-2{
+    position: relative;
+    right: 164px;
+}
+
+
+.about-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #3c3c3c;
+    height: 750px;
+}
+
+.bottom-image-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bottom-image-about img{ 
+    width: 350px;
+    position: relative;
+    bottom: 40px;
+    right: 200px;
+}
+
+.bottom-btn{
+    border: #e5b953 1.5px solid;
+    width: 210px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Great Vibes", cursive;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 5px;
+    gap: 20px;   
+    position: relative;
+    top: 80px;
+    right: 170px;
+    cursor: pointer;
+}
+
+
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font-family: "Great Vibes", cursive;
+    align-items: center;
+}
+
+.sub-ttl{
+    font-size: 3rem;
+    font-weight: 500;
+    margin:40px 0;
+}
+
+.sub-flex{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-button{
+    font-size: 22px;
+    border: #e5b953 1.5px solid;
+    width: 210px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sub-flex input{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+
+section.sixth{
+    display: flex;
+    background-color: #a97850;
+    height: 320px;
+    margin-top:500px;
+    justify-content: center;
+    
+}
+
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    gap: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.cards:hover, .reg10:hover, .site:hover, .blog10:hover, .utd:hover, .germ:hover, .canada:hover
+, .on:hover, .tms:hover, .foru:hover, .create:hover, .inc:hover, .pol:hover, .inv:hover, .career:hover, 
+.pre:hover, .imp:hover, .impr:hover, .hlp:hover, .sett:hover{ 
+    text-decoration:  underline;
+}
+
+.shop{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    gap: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.main{
+    font-weight: 500;
+    font-size:18px;
+}
+
+.sell{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    bottom: 44px;
+    
+}
+
+.sell-main{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.about-main{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.help{
+    display: flex;
+    flex-direction:column;
+    gap: 12px;
+    position: relative;
+    bottom: 58px;
+}
+
+.help-main{
+    font-family: 18px;
+    font-weight: 500;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.icons a{
+    color: white;
+}
+
+
+section.seventh{
+    background-color: #2e2e2e;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+
+.left{
+    font-size: 13px;
+    font-family: "Roboto", serif;
+}
+
+.right2{
+    font-family:"Roboto", serif;
+    font-size: 13px;
+    gap: 23px;
+    display: flex;
+    cursor: pointer;
+}
+
+.right2 a{
+    text-decoration: underline;
+}
+
+
+.container-faq{ 
+    position: absolute; 
+    top : 1950px; 
+    left: 50%; 
+    transform: translate(-50%, -20%); 
+    width: 60%; 
+
+} 
+
+h1 { 
+    text-align: center; 
+    font-family: "Roboto Slab", serif; 
+    font-size: 40px; 
+} 
+
+li { 
+    list-style: none; 
+    margin-bottom: 10px; 
+    padding: 15px; 
+    border-bottom: 2px solid #6d6b6b; 
+} 
+
+.question { 
+    font-family: "Spartan", sans-serif; 
+    font-size: 20px; 
+    font-weight: 600; 
+    margin-bottom: 10px; 
+    position: relative; 
+    color: #5c5a5a; 
+} 
+
+.icon-main { 
+    position: absolute; 
+    right: 0px; 
+    cursor: pointer; 
+} 
+
+.non-active { 
+    display: none; 
+} 
+
+.answer { 
+    font-size: 17px; 
+    font-family: "Spartan", sans-serif; 
+} 

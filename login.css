@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+    height: 100vh;
+}
+
+
+section .first{
+    display: flex;
+    height: 70px;
+    width: 100%;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 170px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    
+}
+
+.pages h1, .pages i{
+    color: white;
+    cursor: pointer;
+}
+
+.pages i{
+    font-size: 19px
+}
+
+
+
+.pages{
+    display: flex;
+    gap: 65px;
+    align-items: center;
+}
+
+.nav-image{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+
+.nav-image p{
+    color: black;
+}
+
+.nav-image img{
+    width: 50px;
+    border-radius: 3px;
+
+}
+
+.nav-image img:hover{
+    opacity: 0.8;
+    transition: ease-in 0.2s;
+    width:55px;
+}
+
+.user{
+    display: flex;
+    gap: 20px;
+}
+
+.user i{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar{
+    opacity: 0;
+    width: 500px;
+    height: 50px;
+    background-color:white;
+    display: flex;
+    transition: 0.2s ease;
+    border-radius: 25px;
+    position: relative;
+    left: 30px;
+}
+
+.search-bar input{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    padding: 0 20px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search:hover .search-bar{
+    opacity: 1;
+}
+
+.second-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.sing-in{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 800px;
+    border-radius: 20px;
+    background-color:white;
+    margin-top:50px;
+    border: 2px solid black;
+}
+
+.top1{
+    gap: 95px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+
+}
+
+.top1 a{ 
+    font-size: 22px;
+    font-weight: 420;
+    font-family: "Roboto", serif;
+}
+
+.reg1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    border-radius:15px;
+    border: 2px solid black;
+    font-size: 14px;
+    font-weight: 420;
+    font-family: "Roboto", serif;
+    cursor: pointer;
+
+}
+
+.reg1:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-left:30px;
+    margin-top: 20px;
+    font-family: "Roboto", serif;
+
+}   
+
+.inputs a{
+    margin-left:5px;
+    font-weight: 500;
+}
+
+.inputs input{
+    width: 320px;
+    border-radius: 10px;
+    height: 45px;
+    border: 2px lightgray solid;
+    /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3); */
+    font-size: 18px;
+    
+}
+
+.inputs input:hover{
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ;
+
+}
+
+.mark{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.stay input{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.stay{
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    position: relative;
+    left:2px; 
+    cursor: pointer;   
+}
+
+.forgot{
+    font-size: 12px;
+    color: gray;
+    font-family: "Roboto", serif;
+    position: relative;
+    right:2px;
+    cursor: pointer;
+}
+
+.forgot:hover{
+    text-decoration: underline;
+}
+
+.Singin-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.button{
+    width: 320px;
+    height:45px;
+    border-radius: 25px;
+    background-color: #242424;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #3e3e3e;
+    transition: all 0.2s;
+    /* width: 325px;
+    height: 47px; */
+    border-radius: 30px;
+}
+
+
+.trouble{
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    cursor: pointer;
+    color: gray;
+    text-decoration: underline;
+}
+
+.ways{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    margin-top: 20px;
+}
+
+.with-appl:hover, .with-ggl:hover, .with-fb:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s;
+    width: 325px;
+    border-radius: 30px;
+
+}
+
+.with-ggl{
+    width: 320px;
+    height: 42px;
+    border-radius: 25px;
+    border: 2px solid  black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 17px;
+    font-family: "Roboto", serif;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.with-ggl i{
+    margin-left: 55px;
+
+}
+
+.with-fb{
+    width: 320px;
+    height: 42px;
+    border-radius: 25px;
+    border: 2px solid  black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 17px;
+    font-family: "Roboto", serif;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.with-fb i{
+    margin-left: 55px;
+
+}
+
+
+.with-appl{
+    width: 320px;
+    height: 42px;
+    border-radius: 25px;
+    border: 2px solid  black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 17px;
+    font-family: "Roboto", serif;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.with-appl i{
+    margin-left: 55px;
+
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: "Roboto", serif;
+
+}
+
+.bott-txt{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 20px;
+}
+
+.bott-txt a{
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    text-align: left;
+    width: 275px;
+    margin-left: 37px;
+}
+
+.bott-txt p{
+    color:#3b67d9;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bott-txt span{
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    text-align: left;
+    width:275px;
+    margin-left: 37px;
+    color: gray;
+}
+
+section.sixth{
+    display: flex;
+    background-color: #a97850;
+    height: 320px;
+    margin-top:80px;
+    justify-content: center;
+    
+}
+
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    gap: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.cards:hover, .reg10:hover, .site:hover, .blog10:hover, .utd:hover, .germ:hover, .canada:hover
+, .on:hover, .tms:hover, .foru:hover, .create:hover, .inc:hover, .pol:hover, .inv:hover, .career:hover, 
+.pre:hover, .imp:hover, .impr:hover, .hlp:hover, .sett:hover{ 
+    text-decoration:  underline;
+}
+
+.shop{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    gap: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.main{
+    font-weight: 500;
+    font-size:18px;
+}
+
+.sell{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    bottom: 44px;
+    
+}
+
+.sell-main{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.about-main{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.help{
+    display: flex;
+    flex-direction:column;
+    gap: 12px;
+    position: relative;
+    bottom: 58px;
+}
+
+.help-main{
+    font-family: 18px;
+    font-weight: 500;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+    font-size: 22px;
+    margin-top: 10px;
+    color: white;
+}
+
+.icons a{
+    color: white;
+}
+
+
+section.seventh{
+    background-color: #2e2e2e;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+
+.left{
+    font-size: 13px;
+    font-family: "Roboto", serif;
+}
+
+.right2{
+    font-family:"Roboto", serif;
+    font-size: 13px;
+    gap: 23px;
+    display: flex;
+    cursor: pointer;
+}
+
+.right2 a{
+    text-decoration: underline;
+}
+
+
+

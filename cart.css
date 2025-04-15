@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+   
+    background-color: rgb(255, 255, 255);
+    height: 100vh;   
+}
+
+section .first{
+    display: flex;
+    height: 70px;
+    width: 100%;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 170px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    
+}
+
+.pages h1, .pages i{
+    color: white;
+    cursor: pointer;
+}
+
+.pages i{
+    font-size: 19px
+}
+
+
+
+.pages{
+    display: flex;
+    gap: 65px;
+    align-items: center;
+}
+
+.nav-image{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+
+.nav-image p{
+    color: black;
+}
+
+.nav-image img{
+    width: 50px;
+    border-radius: 3px;
+
+}
+
+.nav-image img:hover{
+    opacity: 0.8;
+    transition: ease-in 0.2s;
+    width:55px;
+}
+
+.user{
+    display: flex;
+    gap: 20px;
+}
+
+.user i{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar{
+    opacity: 0;
+    width: 500px;
+    height: 50px;
+    background-color:white;
+    display: flex;
+    transition: 0.2s ease;
+    border-radius: 25px;
+    position: relative;
+    left: 30px;
+}
+
+.search-bar input{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    padding: 0 20px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search:hover .search-bar{
+    opacity: 1;
+}
+
+.empty{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 80px 0;
+    align-items: center;
+    font-family: "Roboto Slab", serif;
+}
+
+.empty-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid lightgray;
+    width: 1000px;
+    height: 270px;
+    border-radius: 3px;
+}
+
+.cart-name{
+    font-size: 25px;
+
+}
+
+.cart-check{
+    font-size: 17px;
+    font-weight: 400;
+    color: gray;
+    text-decoration: underline;
+}
+
+.cart-bottom{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.continue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1c1c;
+    color: white;
+    width: 230px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    width: 230px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.continue:hover{
+    opacity: 0.6;
+    transition: 0.2s ease;
+}
+
+.sign:hover{
+    background-color: rgb(240, 236, 229);
+    transition: 0.2s ease;
+}
+
+
+section.sixth{
+    display: flex;
+    background-color: #a97850;
+    height: 320px;
+    margin-top:200px;
+    justify-content: center;
+    
+}
+
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    gap: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.cards:hover, .reg10:hover, .site:hover, .blog10:hover, .utd:hover, .germ:hover, .canada:hover
+, .on:hover, .tms:hover, .foru:hover, .create:hover, .inc:hover, .pol:hover, .inv:hover, .career:hover, 
+.pre:hover, .imp:hover, .impr:hover, .hlp:hover, .sett:hover{ 
+    text-decoration:  underline;
+}
+
+.shop{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    gap: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.main{
+    font-weight: 500;
+    font-size:18px;
+}
+
+.sell{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    bottom: 44px;
+    
+}
+
+.sell-main{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.about-main{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.help{
+    display: flex;
+    flex-direction:column;
+    gap: 12px;
+    position: relative;
+    bottom: 58px;
+}
+
+.help-main{
+    font-family: 18px;
+    font-weight: 500;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.icons a{
+    color: white;
+}
+
+
+section.seventh{
+    background-color: #2e2e2e;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+
+.left{
+    font-size: 13px;
+    font-family: "Roboto", serif;
+}
+
+.right2{
+    font-family:"Roboto", serif;
+    font-size: 13px;
+    gap: 23px;
+    display: flex;
+    cursor: pointer;
+}
+
+.right2 a{
+    text-decoration: underline;
+}
+
+
+.abt-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    font-size: 25px;
+    font-family:"Roboto Slab", serif;
+    gap: 20px;
+    font-weight: 500;
+    
+}
+
+.abt-us a{
+    color: black;
+}
+
+.abt-us:hover{
+    text-decoration: underline;
+}

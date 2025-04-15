@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    height: 350vh;
+    overflow-x: hidden;
+}
+
+
+section .first-services{
+    display: flex;
+    height: 70px;
+    width: 100%;
+}
+
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 170px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    
+}
+
+.pages h1, .pages i{
+    color: white;
+    cursor: pointer;
+}
+
+.pages i{
+    font-size: 19px
+}
+
+
+
+.pages{
+    display: flex;
+    gap: 65px;
+    align-items: center;
+}
+
+.nav-image{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+
+.nav-image p{
+    color: black;
+}
+
+.nav-image img{
+    width: 50px;
+    border-radius: 3px;
+
+}
+
+.nav-image img:hover{
+    opacity: 0.8;
+    transition: ease-in 0.2s;
+    width:55px;
+}
+
+.user{
+    display: flex;
+    gap: 20px;
+}
+
+.user i{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.search-bar{
+    opacity: 0;
+    width: 500px;
+    height: 50px;
+    background-color:white;
+    display: flex;
+    transition: 0.2s ease;
+    border-radius: 25px;
+    position: relative;
+    left: 30px;
+}
+
+.search-bar input{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    padding: 0 20px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search:hover .search-bar{
+    opacity: 1;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 130px;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    font-family: "Roboto Slab", serif;
+}
+
+
+.label-flex{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.label-flex label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 220px;
+    height: 65px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+}
+
+.label-flex select{
+    cursor: pointer;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: center;
+
+}
+
+.services-item{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-family: "Roboto Slab", serif;
+    margin-left: 40px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.item-img img{
+    width: 338px;
+    height: 330px;
+    border-radius: 5px;
+}
+
+
+.img-name{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.img-desc{
+    font-size: 12px;
+    width: 300px;
+    font-weight: 400;
+    color: gray;
+}
+
+.services-item:hover{
+    opacity:0.8;
+    transition: ease 0.2s;
+}
+
+.shop-flex{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
+    color: #333;
+
+}
+ 
+.shop-name{
+    font-size: 30px;
+}
+
+.Shop-by{
+   display: flex;
+   gap: 30px;
+}
+
+.circle-item img{
+    width: 200px;
+}
+
+.circle-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-items2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px   ;
+}
+
+.circle-item:hover{
+    text-decoration: underline;
+}
+
+
+.featured{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 70px 0;
+}
+
+
+
+.ftrd-flex{
+    display: flex;
+    gap: 10px;
+}
+
+.featured-ttl{
+    font-size: 25px;
+    font-family: "Roboto Slab", serif;
+}
+
+.featured-image{
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+    margin: 40px 0;
+}
+
+.featured-image:hover{
+    text-decoration: underline;
+    
+}
+
+.featured-image img{
+    width: 420px;
+}
+
+.featured-image a{
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+
+}
+
+
+section.sixth{
+    display: flex;
+    background-color: #a97850;
+    height: 320px;
+    margin-top:80px;
+    justify-content: center;
+    
+}
+
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    gap: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.cards:hover, .reg10:hover, .site:hover, .blog10:hover, .utd:hover, .germ:hover, .canada:hover
+, .on:hover, .tms:hover, .foru:hover, .create:hover, .inc:hover, .pol:hover, .inv:hover, .career:hover, 
+.pre:hover, .imp:hover, .impr:hover, .hlp:hover, .sett:hover{ 
+    text-decoration:  underline;
+}
+
+.shop{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    gap: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.main{
+    font-weight: 500;
+    font-size:18px;
+}
+
+.sell{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    bottom: 44px;
+    
+}
+
+.sell-main{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.about-main{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.help{
+    display: flex;
+    flex-direction:column;
+    gap: 12px;
+    position: relative;
+    bottom: 58px;
+}
+
+.help-main{
+    font-family: 18px;
+    font-weight: 500;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.icons a{
+    color: white;
+}
+
+section.seventh{
+    background-color: #2e2e2e;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+
+.left{
+    font-size: 13px;
+    font-family: "Roboto", serif;
+}
+
+.right2{
+    font-family:"Roboto", serif;
+    font-size: 13px;
+    gap: 23px;
+    display: flex;
+    cursor: pointer;
+}
+
+.right2 a{
+    text-decoration: underline;
+}
+
+
+
+
+
